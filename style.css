@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../site-construcao/imagens/imagem_01.avif") no-repeat;
+    background-size: cover;
+    color:#ffffff;
+    list-style-type: none;
+}
+
+
+header#cabecalho  {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 100px 0 25px 0;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+header#cabecalho p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+#envio_lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#envio_lista li input, #botao {
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 0 2px;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+#botao {
+    background-color: orange;
+    padding: 10px 10px;
+}
+
+#informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#endereco,
+#hora,
+#contato {
+    color: #000000;
+    border: solid #ffffff 2px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#endereco h3,
+#hora h3,
+#contato h3 {
+    padding-bottom: 20px;
+}
